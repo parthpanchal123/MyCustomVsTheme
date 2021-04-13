@@ -1,0 +1,22 @@
+{
+    "name": "mycolortheme",
+    "displayName": "MyColorTheme",
+    "publisher": "Parth",
+    "description": "This is my customized theme",
+    "version": "0.0.6",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MyCustomTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MyCustomTheme-color-theme.json"
+            }
+        ]
+    }
+}
