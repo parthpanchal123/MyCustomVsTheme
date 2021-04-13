@@ -1,19 +1,25 @@
 {
     "name": "mycolortheme",
-    "displayName": "MyColorTheme",
+    "displayName": "Aqua Material",
     "publisher": "Parth",
-    "description": "This is my customized theme",
-    "version": "0.0.6",
+    "description": "This is my custom color theme for vs-code.",
+    "version": "0.0.8",
     "engines": {
         "vscode": "^1.55.0"
     },
+    "icon": "logo/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/parthpanchal123/MyCustomVsTheme"
+      },
+      "homepage": "https://github.com/parthpanchal123/MyCustomVsTheme/blob/master/README.md",
     "categories": [
         "Themes"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "MyCustomTheme",
+                "label": "Aqua Material",
                 "uiTheme": "vs-dark",
                 "path": "./themes/MyCustomTheme-color-theme.json"
             }
